@@ -47,8 +47,8 @@ jobs:
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: |
-				  cd starter-kit
-					bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+          cd starter-kit
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
