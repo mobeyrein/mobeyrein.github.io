@@ -9,7 +9,7 @@
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-baseurl:               ''
+# baseurl:               ''
 
 
 # General settings
@@ -386,7 +386,11 @@ compress_html:
     envs:              [development]
 
 sass:
-  style:               compressed
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - "#{Jekyll.sites.first.theme.root}/_sass"
+  style: compressed
 
 
 # Jekyll Compose Defaults
