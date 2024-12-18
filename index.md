@@ -2,6 +2,7 @@
 layout: page
 title:
 sitemap: false
+cover: true
 ---
 
 # Welcome
