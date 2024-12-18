@@ -388,7 +388,7 @@ compress_html:
 sass:
   sass_dir: _sass
   load_paths:
-	  - _sass/_forwards.scss
+    - _sass/_forwards.scss
     - _sass
     - "#jekyll-theme-hydejack/_sass"
   style: compressed
