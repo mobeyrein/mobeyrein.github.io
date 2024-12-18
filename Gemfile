@@ -12,6 +12,8 @@ gem "jekyll", "~> 4.3"
 
 gem "jekyll-theme-hydejack", path: "./#jekyll-theme-hydejack"
 
+gem "jekyll-sass-converter", "~> 3.0"
+
 # If you are part of the ["Customers" team](https://github.com/orgs/hydecorp/teams/pro-customers),
 # you can fetch the theme from a private repository.
 # See [Deploy in the Hydejack Docs](https://hydejack.com/docs/deploy) for details.
