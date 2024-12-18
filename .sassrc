@@ -1,0 +1,5 @@
+{
+  "includePaths": ["_sass", "node_modules"],
+  "loadPaths": ["_sass", "node_modules"],
+  "quietDeps": true
+}
