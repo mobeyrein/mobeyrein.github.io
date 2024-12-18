@@ -65,6 +65,8 @@ import {
     return p$.pipe(switchMap((p) => (p ? source : NEVER)));
   };
 
+	// Add these near the top of the async function
+  console.log('Initial history state:', history.state);
   // Determines the range from which to draw the drawer in pixels, counted from the left edge.
   // It depends on the browser, e.g. Safari has a native gesture when sliding form the side,
   // so we ignore the first 35 pixels (roughly the range for the native gesture),
@@ -180,13 +182,28 @@ import {
 
   // Start the drawer in `opened` state when the cover class is present,
   // and the user hasn't started scrolling already.
-  const opened = drawerEl.classList.contains('cover') && scrollTop <= 0 && !(history.state && history.state.closedOnce);
+  //const opened = drawerEl.classList.contains('cover') && scrollTop <= 0 && !(history.state && history.state.closedOnce);
 
-  if (!opened) {
-    if (!history.state) history.replaceState({}, document.title);
-    history.state.closedOnce = true;
-    drawerEl.removeAttribute('opened');
+	// Always open the drawer
+  const opened = true;
+
+  // Ensure no "closed" state persists
+  if (history.state) {
+    delete history.state.closedOnce;
   }
+
+	// Forcefully reset history state
+  history.replaceState({}, document.title);
+
+  // Force the drawer open
+  drawerEl.setAttribute('opened', '');
+  drawerEl.classList.remove('cover');
+
+  //if (!opened) {
+  //  if (!history.state) history.replaceState({}, document.title);
+  //  history.state.closedOnce = true;
+  //  drawerEl.removeAttribute('opened');
+  //}
 
   const opened$ = fromEvent(drawerEl, 'hy-drawer-transitioned').pipe(
     map((e) => e.detail),
@@ -194,8 +211,9 @@ import {
     tap((opened) => {
       if (!opened) {
         removeIcon();
-        if (!history.state) history.replaceState({}, document.title);
-        history.state.closedOnce = true;
+        //if (!history.state) history.replaceState({}, document.title);
+        //history.state.closedOnce = true;
+				history.replaceState({}, document.title);
       }
     }),
     startWith(opened),
