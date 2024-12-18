@@ -13,6 +13,10 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+@use "sass:color";
+@use "sass:math";
+@use "sass:map";
+
 {% include styles/variables.scss %}
 @import "variables";
 @import "my-variables";
