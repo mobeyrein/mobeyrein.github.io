@@ -20,19 +20,38 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 TWIN VISTAS LAW
+title:                 TWIN VISTAS LAW | Minnesota Legal Services
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Twins Vistas is a boutique estate planning law firm for Minnesotans,
-  with a holistic perspective and straightforward approach.
+  Twin Vistas Law helps people in Minnesota protect their legacy using wills, trusts, and comprehensive estate plans with straightforward, fixed fees.
 
 # A shorter description for the sidebar.
 tagline: a Minnesota estate planning firm
 
 # A list of keywords for your blog
-keywords:              []
+keywords:
+  - estate planning
+  - Minnesota estate planning attorney
+  - Minneapolis estate planning lawyer
+  - wills and trusts
+  - estate law
+  - healthcare directive
+  - power of attorney
+  - living will
+  - fixed fee estate planning
+  - Minnesota estate law
+  - Twin Cities estate planning
+  - trust formation
+  - will drafting
+  - estate administration
+  - legacy planning
+  - asset protection
+  - advance directives
+  - Minnesota attorney
+  - straightforward estate planning
+  - family protection
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -42,10 +61,10 @@ logo:                  /assets/img/TwinVistasLaw_Lockup_Web_Transparent.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                Mobey Moberg
+  name:                Sarah (Mobey) Moberg
   email:               admin@twinvistaslaw.com
   # # Used by `jekyll-seo-tag`:
-  phone:             612-555-5555
+  phone:             +1-612-567-6225
 
 # Add links to the sidebar.
 menu:
@@ -325,7 +344,7 @@ plugins:
   - jekyll-readme-index
   - jekyll-redirect-from
   - jekyll-relative-links
-  - jekyll-seo-tag
+  #- jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
   - jekyll-include-cache
@@ -355,11 +374,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-social:
-  name:                Twin Vistas Law
-  links:
-    - https://twitter.com/<username>
-    - https://github.com/<username>
+#social:
+#  name:                Twin Vistas Law
+#  links:
+#    - https://twitter.com/<username>
+#    - https://github.com/<username>
 
 
 # Plugin Configs
