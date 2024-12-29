@@ -73,9 +73,9 @@ hy-drawer {
 
   a {
     
-    color: #fff; 
-    border-bottom-color: rgba(255, 255, 255, 0.2); 
-    text-decoration-color: rgba(255, 255, 255, 0.2); 
+		color: #fafaf2;
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    text-decoration-color: rgba(255, 255, 255, 0.2);
     
     
   }
@@ -83,8 +83,8 @@ hy-drawer {
   &.invert a {
     
     color: #222;
-    border-bottom-color: rgba(32, 32, 32, 0.2); 
-    text-decoration-color: rgba(32, 32, 32, 0.2); 
+    border-bottom-color: rgba(32, 32, 32, 0.2);
+    text-decoration-color: rgba(32, 32, 32, 0.2);
     
     
   }
@@ -130,7 +130,7 @@ hy-drawer {
 
 .sidebar-about {
   .avatar {
-    margin-bottom: 1.5rem
+    margin-bottom: 0.5rem
   }
 
   > a.sidebar-title {
@@ -138,6 +138,7 @@ hy-drawer {
     > h2 {
       margin: 0;
       padding-bottom: .5rem;
+			color: #fafaf2;
     }
 
     &::after {

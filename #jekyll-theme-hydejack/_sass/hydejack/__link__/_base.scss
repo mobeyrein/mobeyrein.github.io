@@ -37,12 +37,13 @@ hy-push-state, hy-drawer {
 
 
 
-@media print { 
-  html { 
+@media print {
+  html {
     font-size: var(--root-font-size-print);
-  } 
+  }
 }
 
-@page { 
+@page {
   margin: 16mm;
-} 
+}
+
