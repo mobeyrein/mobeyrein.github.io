@@ -84,8 +84,8 @@ copyright:             © 2024. All rights reserved. Twin Vistas Law PLLC. <br><
 permalink:             /blog/:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              10
-paginate_path:         /blog/:num/
+#paginate:              10
+#paginate_path:         /blog/:num/
 
 
 # Theme
