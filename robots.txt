@@ -1,0 +1,20 @@
+# www.robotstxt.org
+
+User-agent: *
+
+# Allow crawling of all content
+Allow: /
+
+# Point to your sitemap
+Sitemap: https://www.twinvistaslaw.com/sitemap.xml
+
+# Disallow admin and utility pages
+Disallow: /admin/
+Disallow: /assets/js/
+Disallow: /assets/bower_components/
+Disallow: /assets/bower.json
+Disallow: /assets/manifest.json
+Disallow: /assets/css/
+Disallow: /*.pdf$
+Disallow: /search/
+Disallow: /404.html
