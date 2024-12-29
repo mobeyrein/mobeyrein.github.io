@@ -5,8 +5,10 @@
 {% unless page.redirect %}
   {% if plugins contains 'jekyll-seo-tag' %}
     {% include head/seo-tag.html %}
+		{% include head/schema.html %}
   {% else %}
     {% include head/seo-fallback.html %}
+		{% include head/schema.html %}
   {% endif %}
 
   {% if site.keywords.size > 0 or page.keywords.size > 0 %}

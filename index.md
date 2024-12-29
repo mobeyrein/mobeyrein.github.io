@@ -1,7 +1,6 @@
 ---
 layout: page
-title:
-sitemap: false
+sitemap: true
 cover: true
 ---
 
