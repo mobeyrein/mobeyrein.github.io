@@ -38,4 +38,4 @@ your to-do list!
 Twin Vistas Law uses flat rate fees so you’ll know from the outset what our services will cost and you will never have to worry about hourly rates. After a full consultation, we will propose a plan for your particular situation. We offer many services to assist you with your estate plan, which are available separately as needed, but a truly comprehensive estate plan will coordinate multiple documents, and we will typically combine several into a holistic service package.
 
 <br>
-Contact [Twin Vistas Law via email](mailto:admin@twinvistaslaw.com) to setup our first chat. <a href="mailto:admin@twinvistaslaw.com"><span class="icon-mail"></span></a>
+Contact [Twin Vistas Law via email](mailto:admin@twinvistaslaw.com?subject=First%20Chat) to setup our first chat. <a href="mailto:admin@twinvistaslaw.com"><span class="icon-mail"></span></a>
